@@ -1,0 +1,485 @@
+
+
+
+@media (max-width:376px){
+
+body {
+    width: 375px;
+    margin: 0;
+}
+
+.container {
+    margin: 0;
+    width: inherit;
+}
+
+/* Header Section */
+.header{
+    background-image: url(images/pexels-photo-2963033\ 1.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 5px;
+    height: 260px;
+}
+
+.max {
+    margin-top: 12px;
+    width: 135px;
+}
+
+.menu-icon {
+    margin-left: 200px;
+}
+
+.links{
+    display: none;
+}
+
+h1 {
+    color:#00569D;
+    line-height: 2.7rem;
+    margin: 0;
+    margin-top: 30px;
+}
+
+.client {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.more{
+    display: flex;
+    align-items: center;
+}
+
+.more>* {
+    margin-right: 10px;
+}
+
+button {
+    background: #00569D;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    padding: 12px 22px;
+    font-size: 9px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Reputation Section*/
+
+.main_rep {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.reputation{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 11px;
+    text-align: center;
+    padding: 0px 35px;
+    color: grey;
+}
+
+/* Lead Image Section */
+hr{
+    width: 30px;
+    margin-left: 0;
+    height: 2px;
+    border-radius: 2px;
+    background-color: #00569D;
+}
+
+.lead_image {
+    margin-left: 5px;
+    padding: 5px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lead {
+    height: 300px;
+}
+
+.lead_image h2{
+    font-size: 16px;
+}
+
+.lead_image p{
+    font-size: 12px;
+}
+
+.see {
+    color: blue;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* Statistics Section */
+.resume_main {
+    margin-top: 40px;
+    background-color:#e5eef5;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+}
+.resume{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.central{
+    text-align: center;
+    padding: 0 10px;
+    width: 110px;
+    margin-bottom: 20px;
+}
+
+.central h3 {
+    margin-bottom: 3px;
+}
+
+.central p {
+    font-size: 13px;
+    margin-top: 3px;
+}
+
+.line1 {
+    width: 30px;
+    margin:auto;
+    height: 2px;
+    border-radius: 2px;
+    background-color: #00569D;
+}
+
+/* Achievements Area Section */
+
+.achievements {
+    display: flex;
+    flex-direction: column;
+    background: url(images/Frame\ 4.svg);
+}
+
+.semi_achievements {
+    width: 85%;
+    margin-top: 25px;
+    margin-left: 5px;
+}
+
+.achievements p {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-top: -10px;
+}
+
+.achieve-img {
+    height: 26px;
+    width: 26px;
+    margin-top: 27px;
+    margin-left: 5px;
+}
+
+.achieve-more {
+    color: blue;
+    font-size: 14px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.okay {
+    margin-top: -9px;
+}
+
+.achievements h3{
+    margin-top: 5px;
+}
+
+.compact h2, p {
+    margin-top: -5px;
+}
+
+.compact p {
+    margin-top: -15px;
+}
+
+/* Practice Area Section */
+.specialty{
+    margin-top: 80px;
+    margin-left: 5px;
+}
+
+.practice_areas {
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.see_m {
+    color:#00569D;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.some_of{
+    margin-top: -5px;
+}
+
+.some_of>*{
+    margin-right: 7px;
+}
+
+.complex{
+    margin-top: 35px;
+    margin-left: -5px;
+    display: flex;
+    justify-content: space-between;
+    width: inherit;
+    overflow: hidden;
+}
+
+.box_stack {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: url(images/Rectangle\ 6.svg);
+}
+
+.rect1 {
+    margin-left: -110px;
+}
+
+.rect2 {
+    margin-right: -110px;
+}
+
+.box {
+    width: 210px;
+    height: 135px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    text-align: center;
+    background-image: url(images/Rectangle\ 12.png);
+    border-radius: 5px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.icon {
+    height: 50px;
+}
+.font-text {
+    font-size: 12px;
+}
+
+.fa-comments, .fa-gear {
+    font-size: 50px;
+}
+
+/* Search Section */
+.search {
+    margin-left: 5px;
+    margin-top: 60px;
+}
+.search p {
+    margin-top: -10px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    width: 90%;
+}
+
+.search h2 {
+    margin-top: 0;
+}
+
+.search_button {
+    margin-left: -10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.search_button input {
+    width: 62%;
+    border: none;
+    border-radius: 5px;
+    background: lightgray;
+}
+
+.search_button button {
+    width: 27%;
+    font-size: 12px;
+}
+
+.advanced_search {
+    margin-top: 12px;
+    color: blue;
+    margin-bottom: 100px;
+}
+
+/* Our Team Section */
+
+.Our_Team_Members{
+    background-image: url(images/Group\ 48.svg);
+}
+
+.members {
+    margin-left: 5px;
+}
+
+.members h2 {
+    margin-top: 0px;
+}
+
+.some_members {
+    margin-top: -15px;
+}
+
+.some_members>*{
+    margin-right:7px;
+}
+
+.team_member {
+    text-align: center;
+    margin: 40px;
+}
+
+.image_bgr {
+    background-image: url(images/Ellipse\ 4.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.team_image {
+    width: 128px;
+    height: 125.61px;
+    margin-top: 6px;
+}
+
+.middle {
+    color:#00569D;
+    margin-top: -15px;
+    margin-bottom: 10px;
+}
+
+/* The Connect Section */
+
+.connect {
+    color: white;
+    width: 375px;
+    height: 73.6px;
+    background: #052844;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.connect p {
+    margin: 1px;
+}
+
+.bold_conn {
+    font-weight: bold;
+}
+
+/* Contact Section */
+
+.contact {
+    color: white;
+    background: #000911;
+    margin: 0;
+}
+
+.con_container {
+    margin-left: 10px;
+    padding-top: 20px;
+}
+
+.superior img {
+    margin-bottom: 12px;
+}
+.superior p {
+    margin-top: -8px;
+    font-size: 12px;
+}
+
+.address {
+    margin-top: 40px ;
+}
+
+.address h4{
+    margin: 5px;
+}
+
+.office_address {
+    color: grey;
+    font-size: 12px;
+}
+
+.address p {
+    margin-top: px;
+}
+
+.website {
+    color: grey;
+}
+
+.quick_links {
+    margin-top: 40px;
+}
+
+.quick_links ul {
+    margin-top: -5px;
+}
+
+.quick_links li{
+    list-style: none;
+    margin-left: -40px;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.links_title {
+    font-size: 12px;
+}
+
+
+.quick_links a {
+    text-decoration: none;
+    color: grey;
+}
+
+.social_media {
+    margin-top: 40px;
+}
+
+.media_icons {
+    margin-top: -10px;
+}
+
+.media_icons img {
+    margin-right: 5px;
+    width: 25px;
+    height: 25px;
+}
+
+.media_title {
+    font-size: 14px;
+}
+
+
+/* Footer Section */
+.footer {
+    text-align: center;
+    background: #000911;
+    margin-top: -16px;
+    color: grey;
+    padding: 50px 0;
+    font-size: 13px;
+}
+}
