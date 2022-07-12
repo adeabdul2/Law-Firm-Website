@@ -1,10 +1,8 @@
 
-
-
-@media (max-width:376px){
+@media (max-width:375px){
 
 body {
-    width: 375px;
+    width: 100%;
     margin: 0;
 }
 
@@ -23,24 +21,35 @@ body {
     height: 260px;
 }
 
+.simmons_image {
+    margin-top: 45px;
+    margin-bottom: 29px;
+    background: url(images/SIMMONSCOOPER\ PARTNERS.svg);
+    height: 11vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+}
+
 .max {
     margin-top: 12px;
-    width: 135px;
+    width: 125px;
 }
 
 .menu-icon {
-    margin-left: 200px;
+    margin-left: 190px;
 }
 
 .links{
     display: none;
 }
 
-h1 {
-    color:#00569D;
-    line-height: 2.7rem;
-    margin: 0;
-    margin-top: 30px;
+.busca {
+    display: none;
+}
+
+.top_image>* {
+    margin-bottom: 15px;
 }
 
 .client {
@@ -82,7 +91,7 @@ button {
     font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     font-size: 11px;
     text-align: center;
-    padding: 0px 35px;
+    padding: 0px 25px;
     color: grey;
 }
 
@@ -102,7 +111,7 @@ hr{
 }
 
 .lead {
-    height: 300px;
+    width: 100%;
 }
 
 .lead_image h2{
@@ -370,7 +379,7 @@ hr{
 
 .connect {
     color: white;
-    width: 375px;
+    width: 100%;
     height: 73.6px;
     background: #052844;
     display: flex;
