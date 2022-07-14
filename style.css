@@ -1,21 +1,1063 @@
-body {
-    background: red;
-}
+@media (min-width: 400px) and (max-width: 768px){
 
-@media (max-width: 1000px) {
     body {
-        background: orange;
+        width: 100%;
+        margin: 0;
+    }
+    
+    .container {
+        width: 97%;
+        margin: auto;
+    }
+    
+    .menu-icon {
+        display: none;
+    }
+    
+    .nav_bar {
+        display: flex;  
+    }
+    
+    .nav_baby {
+        width: 96%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .links a {
+        color: black;
+        font-size: 14.5px;
+        margin-left: 30px;
+        text-decoration: none;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .links ul {
+        list-style: none;
+    }
+    
+    .busca {
+        margin: 0 20px;
+    }
+    
+    .header {
+        background: url(images/pexels-photo-2963033\ 1.svg);
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 400px;
+        margin-left: 15px;
+        margin-right: -10px;
+    }
+    
+    .simmons_image {
+        margin-top: 45px;
+        margin-bottom: 29px;
+        background-image: url(images/SIMMONSCOOPER\ PARTNERS\ 2.svg);
+        height: 19.5vh;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: left;
+    }
+    
+    .client {
+        font-weight: bold;
+        font-size: 12px;
+    }
+    
+    .more {
+        margin-top: 60px;
+    }
+    
+    button {
+        background: #00569D;
+        border-radius: 5px;
+        color: white;
+        border: none;
+        padding: 12px 22px;
+        font-size: 12px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .achieve-more {
+        color: #3378b1;
+        font-size: 14px;
+        margin-right: 5px;
+        font-weight: bold;
+    }
+    
+    .reputation {
+        position: relative;
+        bottom: 145px;
+        width: 400px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 13px;
+        margin-left: 15px;
+    }
+    
+    .lead_image {
+        margin-top: -20px;
+        margin-left: 15px;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    
+    .lead {
+        float: right;
+        width: 55%;
+    }
+    
+    .lead_left {
+        float: left;
+        width: 40%;
+        margin-top: 60px;
+    }
+    
+    hr {
+        width: 30px;
+        margin-left: 0;
+        height: 2px;
+        border-radius: 2px;
+        background-color: #00569D;
+    }
+    
+    .lead_image h2 {
+        font-size: 16px;
+        margin-top: -2px;
+    }
+    
+    .lead_image p {
+        font-size: 12px;
+        margin-top: 20px;
+        margin-bottom: 5px;
+        width: 250px;
+    }
+    
+    /* Statistics Section */
+    .resume_main {
+        margin-top: 410px;
+        margin-left: -12px;
+        margin-right: -12px;
+        background-color:#e5eef5;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .resume {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+    
+    .central {
+        text-align: center;
+        width: 120px;
+    }
+    
+    .central h3 {
+        margin-top: 5px;
+        font-weight: normal;
+    }
+    
+    .central p {
+        font-size: 12px;
+    }
+    
+    .line1 {
+        width: 30px;
+        margin:auto;
+        height: 2px;
+        margin-top: -13px;
+        margin-bottom: -7px;
+        border-radius: 2px;
+        background-color: #00569D;
+    }
+    
+    /* Achievements */
+    .achievements {
+        background: url(images/Group\ 71.svg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: -11px;
+        margin-right: -11px;
+    }
+    
+    .semi_achievements {
+        width: 90%;
+        margin: auto;
+        padding: 40px 0;
+    }
+    
+    .okay {
+        display: flex;
+        align-items: center;
+    }
+    
+    .okay > * {
+        margin-right: 7px;
+    }
+    
+    .compact h2 {
+        margin-top: -5px;
+        margin-bottom: -10px;
+    }
+    
+    .compact2 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .compact3 {
+        width: 300px;
+        margin-top: 40px;
+        margin-right: 20px;
+    }
+    
+    .compact3 h3 {
+        margin-top: 3px;
+        margin-bottom: -6px;
+        font-size: 13px;
+    }
+    
+    .compact3 p {
+        font-size: 13px;
+    }
+    
+    .compact3 img {
+        width: 25px;
+    }
+    
+    
+    /* SPECIALTY */
+    
+    .specialty {
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    }
+    
+    .practice_hr {
+        margin: auto;
+    }
+    
+    .practice_areas {
+        margin-top: 5px;
+        text-align: center;
+    }
+    
+    .some_of {
+        font-size: 14px;
+        margin-top: -15px;
+        text-align: center;
+        }
+    
+    .some_of>* {
+        margin-right: 5px;
+    }
+    
+    .see_m {
+        color: #3579b2;
+        font-weight: bold;
+    }
+    
+    .complex {
+        display: flex;
+        justify-content: space-between;
+        margin: 14px -11px;
+    }
+    
+    .box_stack {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-content: space-between;
+    }
+    
+    .box {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        border-radius: 8px;
+        color: white;
+        width: 210px;
+        height: 135px;
+        background-image: url(images/Rectangle\ 12.png);
+        background: #183d5f;
+    }
+    
+    .icon {
+        height: 50px;
+    }
+    .font-text {
+        font-size: 15px;
+    }
+    
+    .rect1 {
+        width: 92px;
+        height: 312px;
+    }
+    
+    .rect2 {
+        width: 92px;
+        height: 312px;
+    }
+    
+    .search_bar {
+        width: 60%;
+    }
+    
+    .mag_glass img {
+        width: 215px;
+        height: 215px;
+    }
+    
+    /* SEARCH SECTION */
+    
+    .search {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 90px;
+        margin-left: 15px;
+        width: 90%;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .search h2 {
+        margin-top: 0;
+        margin-bottom: -8px;
+        font-size: 18px;
+    }
+    
+    .search p {
+        font-size: 14px;
+    }
+    
+    .text_area {
+        width: 70%;
+        margin-right: 5px;
+        background: #e5e5e5;
+        border: none;
+        height: 30px;
+        border-radius: 5px;
+    }
+    
+    .search button {
+        padding: 10px 30px;
+    }
+    
+    .search_button {
+        margin-top: 20px;
+        margin-bottom: 8px;
+    }
+    
+    .advanced_search span {
+        color: #6c9dc7;
+        font-size: 13px;
+        margin-right: 3px;
+    }
+    
+    
+    
+    /* OUR TEAM MEMBERS SECTION */
+    
+    .Our_Team_Members {
+        margin-top: 50px;
+        margin-left: -12px;
+        margin-right: -12px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background: url(images/Group\ 48\ \(1\).svg);
+        height: 415px;
+    }
+    
+    .members {
+        text-align: center;
+        padding-top: 50px;
+    }
+    
+    .members_hr {
+        margin: auto;
+    }
+    
+    .members h2 {
+        margin-top: 7px;
+        margin-bottom: 9px;
+    }
+    
+    .some_members {
+        font-size: 14px;
+    }
+    
+    .some_members > * {
+        margin-left: 5px;
+    }
+    
+    .some_members .see_m {
+        font-size: 13px;
+    }
+    
+    .team_members {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 20px;
+    }
+    
+    .team_member {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-size: 13px;
+    }
+    
+    .team_member p {
+        color: #afafaf;
+    }
+    
+    .middle {
+        color:#3378b1;
+        margin-top: -15px;
+        margin-bottom: -10px;
+    }
+    
+    .image_bgr {
+        background: url(images/Ellipse\ 2.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 139px;
+        height: 139px;
+    }
+    
+    .team_image {
+        margin-top: 6px;
+    }
+    
+    /* CONNECT SECTION */
+    
+    .connect {
+        color: white;
+        margin-left: -12px;
+        margin-right: -12px;
+        background: #052844;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 80px;
+        font-size: 14px;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    
+    .connect h4 {
+        margin-bottom: -8px;
+    }
+    
+    .connect p {
+        color: #afafaf;
+    }
+    
+    /* CONTACT SECTION */
+    
+    .contact {
+        color: white;
+        background: #000911;
+        margin: 0 -12px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .con_container {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .superior {
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    
+    .superior img {
+        margin-bottom: -8px;
+        width: 130px;
+    }
+    
+    .website {
+        color: #afafaf;
+        margin-top: -7px;
+    }
+    
+    .address_title {
+        font-size: 14px;
+    }
+    
+    .office_address {
+        font-size: 12px;
+        color: #afafaf;
+        margin-top: -6px;
+    }
+    
+    .links_title {
+        font-size: 12px;
+        margin-bottom: -8px;
+    }
+    
+    ul li {
+        list-style: none;
+        font-size: 12px;
+        margin-bottom: 7px;
+        margin-left: -40px;
+    }
+    
+    ul a {
+        text-decoration: none;
+        color: #afafaf;
+    }
+    
+    .media_title {
+        font-size: 13px;
+        margin-bottom: 7px;
+    }
+    
+    .media_icons img {
+        margin-right: 5px;
+    }
+    
+    /* FOOTER SECTION */
+    
+    .footer {
+        text-align: center;
+        background: #000911;
+        color: grey;
+        font-size: 14px;
+        margin-top: -20px;
+        margin-right: -12px;
+        margin-left: -12px;
+        padding-top: 10px;
+        padding-bottom: 1px;
+    }
+    
+    .footer p {
+        margin-bottom: 7px;
+    }
+    
+    .footer img {
+        float: right;
+        width: 11%;
+        height: 20px;
+        margin-top: -20px;
     }
 }
 
-@media (max-width: 800px) {
-    body {
-        background: green;
-    }
-}
 
-@media (max-width: 500px) {
+
+@media (max-width: 395px){
+
     body {
-        background: blue;
+        width: 100%;
+        margin: 0;
     }
-}
+    
+    .container {
+        margin: 0;
+        width: inherit;
+    }
+    
+    /* Header Section */
+    .header{
+        background-image: url(images/pexels-photo-2963033\ 1.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-left: 5px;
+        height: 260px;
+    }
+    
+    .simmons_image {
+        margin-top: 45px;
+        margin-bottom: 29px;
+        background: url(images/SIMMONSCOOPER\ PARTNERS.svg);
+        height: 11vh;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: left;
+    }
+    
+    .max {
+        margin-top: 12px;
+        width: 125px;
+    }
+    
+    .menu-icon {
+        margin-left: 190px;
+    }
+    
+    .links{
+        display: none;
+    }
+    
+    .busca {
+        display: none;
+    }
+    
+    .top_image>* {
+        margin-bottom: 15px;
+    }
+    
+    .client {
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+        font-size: 10px;
+        font-weight: bold;
+        padding: 5px;
+    }
+    
+    .more {
+        display: flex;
+        align-items: center;
+    }
+    
+    .more>* {
+        margin-right: 10px;
+    }
+    
+    button {
+        background: #00569D;
+        border-radius: 5px;
+        color: white;
+        border: none;
+        padding: 12px 22px;
+        font-size: 9px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    
+    /* Reputation Section*/
+    
+    .main_rep {
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    
+    .reputation {
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+        font-size: 11px;
+        text-align: center;
+        padding: 0px 25px;
+        color: grey;
+    }
+    
+    /* Lead Image Section */
+    hr {
+        width: 30px;
+        margin-left: 0;
+        height: 2px;
+        border-radius: 2px;
+        background-color: #00569D;
+    }
+    
+    .lead_image {
+        margin-left: 5px;
+        padding: 5px 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .lead {
+        width: 100%;
+    }
+    
+    .lead_image h2 {
+        font-size: 16px;
+    }
+    
+    .lead_image p {
+        font-size: 12px;
+    }
+    
+    .see {
+        color: blue;
+        font-size: 12px;
+        font-weight: bold;
+    }
+    
+    /* Statistics Section */
+    .resume_main {
+        margin-top: 40px;
+        background-color:#e5eef5;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        width: 100%;
+    }
+
+    .resume {
+        display: flex;
+        justify-content:space-around;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    
+    .central {
+        text-align: center;
+        padding: 0 8px;
+        width: 120px;
+        margin-bottom: 20px;
+    }
+    
+    .central h3 {
+        margin-bottom: 3px;
+    }
+    
+    .central p {
+        font-size: 13px;
+        margin-top: 3px;
+    }
+    
+    .line1 {
+        width: 30px;
+        margin:auto;
+        height: 2px;
+        border-radius: 2px;
+        background-color: #00569D;
+    }
+    
+    /* Achievements Area Section */
+    
+    .achievements {
+        display: flex;
+        flex-direction: column;
+        background: url(images/Frame\ 4.svg);
+    }
+    
+    .semi_achievements {
+        width: 85%;
+        margin-top: 25px;
+        margin-left: 5px;
+    }
+    
+    .achievements p {
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        margin-top: -10px;
+    }
+    
+    .achieve-img {
+        height: 26px;
+        width: 26px;
+        margin-top: 27px;
+        margin-left: 5px;
+    }
+    
+    .achieve-more {
+        color: blue;
+        font-size: 14px;
+        margin-right: 5px;
+        font-weight: bold;
+    }
+    
+    .okay {
+        margin-top: -9px;
+    }
+    
+    .achievements h3{
+        margin-top: 5px;
+    }
+    
+    .compact h2, p {
+        margin-top: -5px;
+    }
+    
+    .compact p {
+        margin-top: -15px;
+    }
+    
+    /* Practice Area Section */
+    .specialty {
+        margin-top: 80px;
+        margin-left: 5px;
+    }
+    
+    .practice_areas {
+        margin-top: 0;
+        margin-bottom: 8px;
+    }
+    
+    .see_m {
+        color:#00569D;
+        font-weight: bold;
+        font-size: 15px;
+    }
+    
+    .some_of {
+        margin-top: -5px;
+    }
+    
+    .some_of > * {
+        margin-right: 7px;
+    }
+    
+    .complex {
+        margin-top: 35px;
+        margin-left: -5px;
+        display: flex;
+        justify-content: space-between;
+        width: inherit;
+        overflow: hidden;
+    }
+    
+    .box_stack {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .rect1 {
+        margin-left: -110px;
+    }
+    
+    .rect2 {
+        margin-right: -110px;
+    }
+    
+    .box {
+        width: 210px;
+        height: 135px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-evenly;
+        text-align: center;
+        background-image: url(images/Rectangle\ 12.png);
+        background-color: #00569D;
+        border-radius: 5px;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    
+    .icon {
+        height: 50px;
+    }
+
+    .font-text {
+        font-size: 12px;
+    }
+    
+    .fa-comments, .fa-gear {
+        font-size: 50px;
+    }
+    
+    /* Search Section */
+    .search {
+        margin-left: 5px;
+        margin-top: 60px;
+    }
+    .search p {
+        margin-top: -10px;
+        margin-bottom: 20px;
+        font-size: 14px;
+        width: 90%;
+    }
+    
+    .search h2 {
+        margin-top: 0;
+    }
+    
+    .search_button {
+        margin-left: -10px;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .search_button input {
+        width: 62%;
+        border: none;
+        border-radius: 5px;
+        background: lightgray;
+    }
+    
+    .search_button button {
+        width: 27%;
+        font-size: 12px;
+    }
+    
+    .advanced_search {
+        margin-top: 12px;
+        color: blue;
+        margin-bottom: 100px;
+    }
+    
+    .mag_glass {
+        display: none;
+    }
+    
+    /* Our Team Section */
+    
+    .Our_Team_Members{
+        background-image: url(images/Group\ 48.svg);
+    }
+    
+    .members {
+        margin-left: 5px;
+    }
+    
+    .members h2 {
+        margin-top: 0px;
+    }
+    
+    .some_members {
+        margin-top: -15px;
+    }
+    
+    .some_members > * {
+        margin-right:7px;
+    }
+    
+    .team_member {
+        text-align: center;
+        margin: 40px;
+    }
+    
+    .image_bgr {
+        background-image: url(images/Ellipse\ 4.svg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .team_image {
+        width: 128px;
+        height: 125.61px;
+        margin-top: 6px;
+    }
+    
+    .middle {
+        color:#00569D;
+        margin-top: -15px;
+        margin-bottom: 10px;
+    }
+    
+    /* The Connect Section */
+    
+    .connect {
+        color: white;
+        width: 100%;
+        height: 73.6px;
+        background: #052844;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .connect p {
+        margin: 1px;
+    }
+    
+    .connect h4 {
+        font-weight: bold;
+        margin-top: 5px;
+        margin-bottom: 0;
+    }
+    
+    /* Contact Section */
+    
+    .contact {
+        color: white;
+        background: #000911;
+        margin: 0;
+    }
+    
+    .con_container {
+        margin-left: 10px;
+        padding-top: 20px;
+    }
+    
+    .superior img {
+        margin-bottom: 12px;
+    }
+    .superior p {
+        margin-top: -8px;
+        font-size: 12px;
+    }
+    
+    .address {
+        margin-top: 40px ;
+    }
+    
+    .address h4 {
+        margin: 5px;
+    }
+    
+    .office_address {
+        color: grey;
+        font-size: 12px;
+    }
+    
+    .address p {
+        margin-top: px;
+    }
+    
+    .website {
+        color: grey;
+    }
+    
+    .quick_links {
+        margin-top: 40px;
+    }
+    
+    .quick_links ul {
+        margin-top: -5px;
+    }
+    
+    .quick_links li {
+        list-style: none;
+        margin-left: -40px;
+        margin-top: 5px;
+        font-size: 12px;
+    }
+    
+    .links_title {
+        font-size: 12px;
+    }
+    
+    
+    .quick_links a {
+        text-decoration: none;
+        color: grey;
+    }
+    
+    .social_media {
+        margin-top: 40px;
+    }
+    
+    .media_icons {
+        margin-top: -10px;
+    }
+    
+    .media_icons img {
+        margin-right: 5px;
+        width: 25px;
+        height: 25px;
+    }
+    
+    .media_title {
+        font-size: 14px;
+    }
+    
+    
+    /* FOOTER SECTION */
+    
+    .footer {
+        text-align: center;
+        background: #000911;
+        margin-top: -16px;
+        color: grey;
+        padding: 50px 0;
+        font-size: 13px;
+    }
+    
+    .footer img {
+        display: none;
+    }
+
+    }
+
+
+    
