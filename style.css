@@ -45,7 +45,6 @@ body {
     background-repeat: no-repeat;
     background-position: bottom right;
     margin-left: 50px;
-    border: 1px solid red; 
     margin-bottom: -20px;
 }
 
@@ -110,23 +109,22 @@ button {
 
 .lead_image {
     font-family:Arial, Helvetica, sans-serif;
-    border: 1px solid black;
     display: flex;
     flex-direction:row-reverse;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content:left;
+    width: 96%;
+    margin-left: 4%;
 }
 
 .lead {
-    width:45%;    
-    border: 1px solid red;
+    width:45%;
 }
 
 .lead_left {
-    width: 33%;
-    margin-top: 60px;
+    width: 37%;
     padding: 0;
-    border: 1px solid red;
+    margin-right: 10%;
 }
 
 hr {
@@ -143,11 +141,10 @@ hr {
 }
 
 .lead_image p {
-    font-size: 12px;
+    font-size: 14px;
     margin-top: 20px;
     margin-bottom: 5px;
-    width:379px;
-    border: 1px solid red;
+    width: 390x;
 }
 
 
