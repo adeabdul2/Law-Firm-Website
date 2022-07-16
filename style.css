@@ -44,7 +44,8 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom right;
-    margin-left: 50px;    
+    margin-left: 50px;
+    border: 1px solid red; 
 }
 
 .max {
@@ -103,6 +104,50 @@ button {
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/* MAIN REPUTATION SECTION */
+
+.lead_image {
+    font-family:Arial, Helvetica, sans-serif;
+    border: 1px solid red;
+    display: flex;
+    flex-direction:row-reverse;
+    align-items: center;
+    margin: auto;
+}
+
+.lead {
+    width:50%;    
+    border: 1px solid red;
+}
+
+.lead_left {
+    width: 45%;
+    margin-top: 60px;
+    padding: 0;
+    border: 1px solid red;
+}
+
+hr {
+    width: 30px;
+    margin-left: 0;
+    height: 2px;
+    border-radius: 2px;
+    background-color: #00569D;
+}
+
+.lead_image h2 {
+    font-size: 16px;
+    margin-top: -2px;
+}
+
+.lead_image p {
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    width: 250px;
+}
+
 
 
 @media (min-width: 400px) and (max-width: 768px){
