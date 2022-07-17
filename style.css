@@ -3,7 +3,6 @@
 body {
     width: 100%;
     margin: 0;
-    border: 1px solid red;
 }
 
 .container {
@@ -316,15 +315,12 @@ hr {
 
 .rect1 {
     width: 174px;
-    height: 76vh;
-    border: 1px solid red;
- 
+    height: 76vh; 
 }
 
 .rect2 {
     width: 174px;
     height: 76vh;
-    border: 1px solid red;
 }
 
 /* SEARCH SECTION */
@@ -494,7 +490,6 @@ hr {
     padding-top: 30px;
     display: flex;
     justify-content: space-around;
-    border: 1px solid red;
 }
 
 .superior {
