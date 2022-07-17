@@ -344,6 +344,7 @@ hr {
     align-items: center;
     margin-top: 90px;
     margin-left: 45px;
+    margin-bottom: 80px;
     width:80%;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -382,10 +383,202 @@ hr {
     margin-right: 3px;
 }
 
-
-
-
+/* OUR TEAM MEMBERS SECTION */
+    
+.Our_Team_Members {
+    margin-top: 50px;
+    margin-left: -12px;
+    margin-right: -12px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: url(images/Group\ 48\ \(1\).svg);
+    height: 415px;
 }
+
+.members {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.members_hr {
+    margin: auto;
+}
+
+.members h2 {
+    margin-top: 7px;
+    margin-bottom: 9px;
+}
+
+.some_members {
+    font-size: 14px;
+}
+
+.some_members > * {
+    margin-left: 5px;
+}
+
+.some_members .see_m {
+    font-size: 13px;
+}
+
+.team_members {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.team_member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 13px;
+}
+
+.team_member p {
+    color: #afafaf;
+}
+
+.middle {
+    color:#3378b1;
+    margin-top: -15px;
+    margin-bottom: -10px;
+}
+
+.image_bgr {
+    background: url(images/Ellipse\ 2.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 139px;
+    height: 139px;
+}
+
+.team_image {
+    margin-top: 6px;
+}
+
+/* CONNECT SECTION */
+
+.connect {
+    color: white;
+    margin-left: -12px;
+    margin-right: -12px;
+    background: #052844;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 18vh;
+    font-size: 14px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.connect h4 {
+    margin-bottom: -8px;
+}
+
+.connect p {
+    color: #afafaf;
+}
+
+/* CONTACT SECTION */
+
+.contact {
+    color: white;
+    background: #000911;
+    margin: 0 -12px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.con_container {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid red;
+}
+
+.superior {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.superior img {
+    margin-bottom: -8px;
+    width: 130px;
+}
+
+.website {
+    color: #afafaf;
+    margin-top: -7px;
+}
+
+.address_title {
+    font-size: 14px;
+}
+
+.office_address {
+    font-size: 12px;
+    color: #afafaf;
+    margin-top: -6px;
+}
+
+.links_title {
+    font-size: 12px;
+    margin-bottom: -8px;
+}
+
+ul li {
+    list-style: none;
+    font-size: 12px;
+    margin-bottom: 7px;
+    margin-left: -40px;
+}
+
+ul a {
+    text-decoration: none;
+    color: #afafaf;
+}
+
+.media_title {
+    font-size: 13px;
+    margin-bottom: 7px;
+}
+
+.media_icons img {
+    margin-right: 5px;
+}
+
+/* FOOTER SECTION */
+
+.footer {
+    text-align: center;
+    background: #000911;
+    color: grey;
+    font-size: 14px;
+    margin-top: -20px;
+    margin-right: -12px;
+    margin-left: -12px;
+    padding-top: 10px;
+    padding-bottom: 1px;
+}
+
+.footer p {
+    margin-top: 40px;
+    margin-bottom: 7px;
+}
+
+.footer img {
+    float: right;
+    width: 11%;
+    height: 20px;
+    margin-top: -20px;
+}
+}
+
+
+
+
+
 
 
 @media (min-width: 400px) and (max-width: 768px){
