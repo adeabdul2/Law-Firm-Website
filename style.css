@@ -3,6 +3,7 @@
 body {
     width: 100%;
     margin: 0;
+    border: 1px solid red;
 }
 
 .container {
@@ -550,23 +551,25 @@ ul a {
     background: #000911;
     color: grey;
     font-size: 14px;
-    margin-top: -20px;
-    margin-right: -12px;
-    margin-left: -12px;
     padding-top: 10px;
     padding-bottom: 1px;
+    border: 1px solid red;
+    width: 100%;
+    margin-left: 00px;
 }
 
 .footer p {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-top: 40px;
     margin-bottom: 7px;
+    text-align: center;
+    border: 1px solid red;
 }
 
 .footer img {
     float: right;
-    width: 11%;
-    height: 20px;
+    width: 13%;
+    height: 21px;
     margin-top: -20px;
 }
 }
