@@ -1,0 +1,302 @@
+
+
+    body {
+        width: 100%;
+        margin: 0;
+    }
+    
+    .container {
+        width: 90%;
+        margin: auto;
+    }
+    
+    .menu-icon {
+        display: none;
+    }
+    
+    .nav_bar {
+        display: flex;  
+    }
+    
+    .nav_baby {
+        width: 96%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .links a {
+        color: black;
+        font-size: 14.5px;
+        margin-left: 30px;
+        text-decoration: none;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .links ul {
+        list-style: none;
+    }
+    
+    .busca {
+        margin: 0 60px;
+        width: 15px;
+    }
+    
+    .header {
+        background: url(images/pexels-photo-2963033\ 1\ \(1\).svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        margin-bottom: -20px;
+        border: 1px solid red;
+    }
+    
+    .max {
+        margin-top: 12px;
+        width: 219px;
+    }
+    
+    .simmons_image {
+        margin-top: 120px;
+        margin-bottom: 29px;
+        background-image: url(images/SIMMONSCOOPER\ PARTNERS.svg);
+        height: 202px;
+        width: 798px;
+        background-size: cover; 
+    }
+    
+    .client {
+        margin-top: 70px;
+        font-weight: bold;
+        font-size: 12px;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    
+    .reputation {
+        position: relative;
+        bottom: 100px;
+        width: 600px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 13px;
+        margin-left: 51px;
+    }
+    
+    .more{
+        margin-top: 76px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    }
+    
+    .more>* {
+        margin-right: 6px;
+    }
+    
+    .achieve-more {
+        color: #3378b1;
+        font-size: 14px;
+        margin-right: 5px;
+        font-weight: bold;
+    }
+    
+    button {
+        background: #00569D;
+        border-radius: 5px;
+        color: white;
+        border: none;
+        padding: 15px 25px;
+        font-size: 12px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    
+    /* OUR TEAM MEMBERS SECTION */
+        
+    .Our_Team_Members {
+        margin-top: 50px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background: url(images/Group\ 48\ \(1\).svg);
+        height: 415px;
+        width: 100%;
+        border: 1px solid red;
+    }
+    
+    .members {
+        text-align: center;
+        padding-top: 50px;
+    }
+    
+    .members_hr {
+        margin: auto;
+    }
+    
+    .members h2 {
+        margin-top: 7px;
+        margin-bottom: 9px;
+    }
+    
+    .some_members {
+        font-size: 14px;
+    }
+    
+    .some_members > * {
+        margin-left: 5px;
+    }
+    
+    .some_members .see_m {
+        font-size: 13px;
+    }
+    
+    .team_members {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 20px;
+    }
+    
+    .team_member {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-size: 13px;
+    }
+    
+    .team_member p {
+        color: #afafaf;
+    }
+    
+    .middle {
+        color:#3378b1;
+        margin-top: -15px;
+        margin-bottom: -10px;
+    }
+    
+    .image_bgr {
+        background: url(images/Ellipse\ 2.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 139px;
+        height: 139px;
+    }
+    
+    .team_image {
+        margin-top: 6px;
+    }
+    
+    /* CONNECT SECTION */
+    
+    .connect {
+        color: white;
+        background: #052844;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 18vh;
+        font-size: 14px;
+        font-family:Arial, Helvetica, sans-serif;
+        margin-left: -64px;
+        margin-right: -64px;
+    }
+    
+    .connect h4 {
+        margin-bottom: -8px;
+    }
+    
+    .connect p {
+        color: #afafaf;
+    }
+    
+    /* CONTACT SECTION */
+    
+    .contact {
+        color: white;
+        background: #000911;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: -64px;
+        margin-right: -64px;
+    }
+    
+    .con_container {
+        padding-top: 30px;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .superior {
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    
+    .superior img {
+        margin-bottom: -8px;
+        width: 190px;
+    }
+    
+    .website {
+        color: grey;
+        margin-top: -7px;
+    }
+    
+    .address_title {
+        font-size: 14px;
+    }
+    
+    .office_address {
+        font-size: 12px;
+        color: grey;
+        margin-top: -6px;
+    }
+    
+    .links_title {
+        font-size: 12px;
+        margin-bottom: -8px;
+    }
+    
+    ul li {
+        list-style: none;
+        font-size: 12px;
+        margin-bottom: 7px;
+        margin-left: -40px;
+    }
+    
+    ul a {
+        text-decoration: none;
+        color: grey;
+    }
+    
+    .media_title {
+        font-size: 13px;
+        margin-bottom: 7px;
+    }
+    
+    .media_icons img {
+        margin-right: 5px;
+    }
+    
+    /* FOOTER SECTION */
+    
+    .footer {
+        text-align: center;
+        background: #000911;
+        color: grey;
+        font-size: 14px;
+        padding-top: 10px;
+        padding-bottom: 1px;
+        margin-left: -64px;
+        margin-right: -64px;
+    }
+    
+    .footer p {
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-top: 40px;
+        margin-bottom: 7px;
+        text-align: center;
+    }
+    
+    .footer img {
+        float: right;
+        width: 13%;
+        height: 21px;
+        margin-top: -20px;
+    }
+    
