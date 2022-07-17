@@ -199,7 +199,7 @@ hr {
     background-position: center;
     background-repeat: no-repeat;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-left: -11px;
+    margin-left: 11px;
     margin-right: -11px;
 }
 
@@ -337,6 +337,52 @@ hr {
     width: 215px;
     height: 215px;
 }
+    
+.search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 90px;
+    margin-left: 45px;
+    width:80%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.search h2 {
+    margin-top: 0;
+    margin-bottom: -8px;
+    font-size: 18px;
+}
+
+.search p {
+    font-size: 14px;
+}
+
+.text_area {
+    width: 70%;
+    margin-right: 5px;
+    background: #e5e5e5;
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.search button {
+    padding: 10px 30px;
+}
+
+.search_button {
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+.advanced_search span {
+    color: #6c9dc7;
+    font-size: 13px;
+    margin-right: 3px;
+}
+
+
 
 
 }
