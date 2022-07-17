@@ -1,3 +1,5 @@
+@media (min-width: 769px){
+
 body {
     width: 100%;
     margin: 0;
@@ -189,6 +191,7 @@ hr {
     background-color: #00569D;
 }
 
+}
 
 
 @media (min-width: 400px) and (max-width: 768px){
