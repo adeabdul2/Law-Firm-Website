@@ -27,59 +27,49 @@
         margin-left: 50px;
         text-decoration: none;
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        
-        border: 2px solid red;
     }
     
     .links {
         list-style: none;
-        border: 2px solid red;
     }
     
     .busca {
         margin-left: 60px;
-        border: 2px solid red;
         width: 15px;
     }
     
     .header {
         width: 90vw;
-        border: 2px solid yellowgreen;
     }
     
     .max {
         margin-top: 12px;
         width: 219px;
-        border: 1px solid red;
     }
     
     .team {
         margin-top: 30px;
         width: 90vw;
-        border: 1px solid red;
     }
     
     /* OUR TEAM MEMBERS SECTION */
-        
-    .Our_Team_Members {
-        margin-top: 100px;
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        border: 1px solid red;
-        display: flex;
-        flex-wrap: wrap;
-    }
 
     .team_member {
-        margin: auto;
-    }
-    
-    .team_members {
-        border: 1px solid red;
+        margin-top: 30px;
+        width: 90vw;
+        text-align: center;
     }
 
-    .pix {
-        width: 70vw;
-        border: 1px solid red;
+    .lines {
+        width: 90vw;
+    }
+
+    .pix_down {
+        margin-top: 70px;
+    }
+
+    .pix_up {
+        margin-bottom: 70px;
     }
     
     /* CONNECT SECTION */
