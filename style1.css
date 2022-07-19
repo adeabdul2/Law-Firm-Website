@@ -10,10 +10,6 @@
         margin: auto;
     }
     
-    .menu-icon {
-        display: none;
-    }
-    
     .nav_bar {
         display: flex;  
     }
@@ -22,164 +18,68 @@
         width: 96%;
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
     
     .links a {
         color: black;
         font-size: 14.5px;
-        margin-left: 30px;
+        margin-left: 50px;
         text-decoration: none;
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+        border: 2px solid red;
     }
     
-    .links ul {
+    .links {
         list-style: none;
+        border: 2px solid red;
     }
     
     .busca {
-        margin: 0 60px;
+        margin-left: 60px;
+        border: 2px solid red;
         width: 15px;
     }
     
     .header {
-        background: url(images/pexels-photo-2963033\ 1\ \(1\).svg);
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: bottom right;
-        margin-bottom: -20px;
-        border: 10px solid yellowgreen;
+        width: 90vw;
+        border: 2px solid yellowgreen;
     }
     
     .max {
         margin-top: 12px;
         width: 219px;
+        border: 1px solid red;
     }
     
-    .simmons_image {
-        margin-top: 120px;
-        margin-bottom: 29px;
-        background-image: url(images/SIMMONSCOOPER\ PARTNERS.svg);
-        height: 202px;
-        width: 798px;
-        background-size: cover; 
+    .team {
+        margin-top: 30px;
+        width: 90vw;
+        border: 1px solid red;
     }
-    
-    .client {
-        margin-top: 70px;
-        font-weight: bold;
-        font-size: 12px;
-        font-family:Arial, Helvetica, sans-serif;
-    }
-    
-    .reputation {
-        position: relative;
-        bottom: 100px;
-        width: 600px;
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 13px;
-        margin-left: 51px;
-    }
-    
-    .more{
-        margin-top: 76px;
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-    }
-    
-    .more>* {
-        margin-right: 6px;
-    }
-    
-    .achieve-more {
-        color: #3378b1;
-        font-size: 14px;
-        margin-right: 5px;
-        font-weight: bold;
-    }
-    
-    button {
-        background: #00569D;
-        border-radius: 5px;
-        color: white;
-        border: none;
-        padding: 15px 25px;
-        font-size: 12px;
-        font-weight: bold;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    
     
     /* OUR TEAM MEMBERS SECTION */
         
     .Our_Team_Members {
-        margin-top: 50px;
+        margin-top: 100px;
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        background: url(images/Group\ 48\ \(1\).svg);
-        height: 415px;
-        width: 100%;
         border: 1px solid red;
+        display: flex;
+        flex-wrap: wrap;
     }
-    
-    .members {
-        text-align: center;
-        padding-top: 50px;
-    }
-    
-    .members_hr {
+
+    .team_member {
         margin: auto;
     }
     
-    .members h2 {
-        margin-top: 7px;
-        margin-bottom: 9px;
-    }
-    
-    .some_members {
-        font-size: 14px;
-    }
-    
-    .some_members > * {
-        margin-left: 5px;
-    }
-    
-    .some_members .see_m {
-        font-size: 13px;
-    }
-    
     .team_members {
-        display: flex;
-        justify-content: space-evenly;
-        margin-top: 20px;
+        border: 1px solid red;
     }
-    
-    .team_member {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        font-size: 13px;
-    }
-    
-    .team_member p {
-        color: #afafaf;
-    }
-    
-    .middle {
-        color:#3378b1;
-        margin-top: -15px;
-        margin-bottom: -10px;
-    }
-    
-    .image_bgr {
-        background: url(images/Ellipse\ 2.svg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 139px;
-        height: 139px;
-    }
-    
-    .team_image {
-        margin-top: 6px;
+
+    .pix {
+        width: 70vw;
+        border: 1px solid red;
     }
     
     /* CONNECT SECTION */
@@ -194,8 +94,8 @@
         height: 18vh;
         font-size: 14px;
         font-family:Arial, Helvetica, sans-serif;
-        margin-left: -64px;
-        margin-right: -64px;
+        margin-left: -63px;
+        margin-right: -63px;
     }
     
     .connect h4 {
@@ -212,8 +112,8 @@
         color: white;
         background: #000911;
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        margin-left: -64px;
-        margin-right: -64px;
+        margin-left: -63px;
+        margin-right: -63px;
     }
     
     .con_container {
@@ -282,8 +182,8 @@
         font-size: 14px;
         padding-top: 10px;
         padding-bottom: 1px;
-        margin-left: -64px;
-        margin-right: -64px;
+        margin-left: -63px;
+        margin-right: -63px;
     }
     
     .footer p {
